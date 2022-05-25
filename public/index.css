@@ -1,14 +1,75 @@
-#img {
-  display: block;
-  margin: auto;
-  height: 128px;
-  width: 128px;
-  padding: 2rem;
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
 }
 
-#canvas {
-  display: block;
-  margin: 2rem auto;
-  width: 540px;
-  height: 540px;
+body {
+  background-color: gainsboro;
+}
+
+.page-banner {
+  width: 100%;
+  display: flex;
+  background: darkgray;
+  border: 1px solid gray;
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.308);
+  align-items: center;
+  justify-content: center;
+}
+
+.page-title {
+  font-family: sans-serif;
+  padding: 1rem;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.todo-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.todo-form > label {
+  font-weight: bold;
+}
+
+.todo-form > input {
+  margin: 15px 0px;
+  padding: 0.2rem;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.btn {
+  padding: 5px 15px;
+  color: gainsboro;
+  font-family: sans-serif;
+  font-weight: bold;
+  background-color: gray;
+  border: 1px solid whitesmoke;
+  border-radius: 5px;
+}
+
+.task-container {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+.task-container > h1 {
+  text-decoration: underline;
+}
+
+.task-list {
+  font-family: sans-serif;
+  margin-top: 1rem;
+  font-size: larger;
+}
+
+.task-list li label input {
+  margin-right: 5px;
 }
